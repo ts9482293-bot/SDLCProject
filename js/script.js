@@ -50,6 +50,15 @@ var swiper4 = new Swiper('.services-swiper', {
   slidesPerView: "auto",
 });
 
+ const navLinks = document.querySelectorAll('.nav-link');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.forEach(item => item.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+
     AOS.init({
         duration: 1000,  
         once: true        
