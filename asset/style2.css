@@ -449,8 +449,17 @@ nav,
 }
 /* estimate-sec */
 .estimate-sec {
-  background: var(--offcanvsbckground-color);
   padding: 58px 0;
+}
+.estimate-wraper{
+  padding: 0 10px;
+}
+.estimate-conatiner{
+  border-radius: 16px;
+  background: var(--offcanvsbckground-color);
+}
+.estimate-cont>.title4{
+  margin-top: 25px;
 }
 .estimate-cont > .title2 > span {
   color: var(--hover-color);

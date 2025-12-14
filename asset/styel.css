@@ -520,6 +520,7 @@ nav,
   margin: 0 auto 40px;
   transition: 0.3s ease;
   box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2), 0px 15px 40px rgba(0, 0, 0, 0.12);
+  
   border-radius: 20px;
 }
 .choose-card:hover {
