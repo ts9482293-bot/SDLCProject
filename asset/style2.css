@@ -1046,6 +1046,9 @@ nav,
     padding: 12px 24px;
     font-size: 12px;
   }
+  .estimate-img{
+    height: auto;
+  }
 }
 @media screen and (max-width:480px){
    .social-list > li {
@@ -1059,7 +1062,7 @@ nav,
   }
    .electric-img{
     max-width: 300px;
-    margin: 0 auto auto;
+    margin: 0 auto;
   }
   .electric-sub-img{
     max-width: 200px;
@@ -1067,6 +1070,7 @@ nav,
   }
   .electric-sec{
     height: 155vh;
+    height: auto;
   }
 }
 @media screen and (max-width:400px){
