@@ -41,6 +41,7 @@ body {
   --social-color: #999999;
   --btn-color: #0072ff;
   --slider-color: #ffbf00;
+  --offcanvsbckground-color:#c3d4ff ;
 }
 a {
   display: inline-block;
@@ -1336,13 +1337,24 @@ nav,
   .offcanvas {
     flex-direction: column;
     text-align: center;
+    /* position: relative; */
+    z-index: 99;
+    background: var(--offcanvsbckground-color);
+  }
+  .offcanvas-backdrop{
+    z-index: 9;
+  }
+ .offcanvas .dropdown-menu {
+   position: absolute;
+   z-index: 999;
   }
   .offcanvas-header {
     margin-left: auto;
     font-size: 1.4rem;
+    color: var(--hover-color);
   }
   .offcanvas > ul {
-    background: var(--secondary-color);
+    background: var(--offcanvsbckground-color);
     margin: 0 !important;
     height: auto;
     border-radius: 0;
